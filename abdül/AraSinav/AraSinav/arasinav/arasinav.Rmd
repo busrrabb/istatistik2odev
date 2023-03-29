@@ -1,0 +1,63 @@
+---
+title: "Evlenme ve Boşanma Üzerine Çıkarımsal Analiz"
+author: 
+  - Abdül Aydıntepe [numara]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+
+## Giriş
+    Karşılıklı etkileşen, evlilik ve aileyi ilgilendiren konularda fikir birliği yapabilen ve sorunlarını olumlu bir şekilde çözebilen çiftlerin evliliği uyumlu bir evlilik olarak tanımlanır. Dolayısıyla; mutluluk, doyum ve beklentilerin gerçekleşmesi, evlilikte karşılıklı uyum ile mümkündür. Bu nedenle klinisyenler kadar araştırmacılar da evlilik
+kalitesi ve evlilik uyumunun araştırılmasına giderek artan bir ilgi duymaya başlamışlardır.[@erbek2005evlilik] 
+    Evlilik ilişkilerini içeren aile, toplumdaki değişimlerden en fazla
+etkilenen kurumlardan biridir. Ekonomik gelişmeler, artan eğitim düzeyi ve kadının giderek daha fazla çalışma dünyasına girmesi gibi birçok faktör önemli toplumsal değişimler arasmda sayılabilir. Bu değişimlere olan duyarlılığı nedeniyle evlilik ilişkilerinin düzenli olarak incelenmesi önemli gözükmektedir. Bu amaçla, bu çalışmada demografik değişkenlerle, evlenme ve boşanma ilişkileri incelenmiştir.
+    Bu veri setinde aşağıdaki değişkenler bulunmaktadır;
+  
+ *  **İller**
+ *  **2022 İllere Göre Evlenme Sayısı**
+ *  **2022 Akraba Evliliği Sayısı** 
+ *  **2022 Akraba Evliliği Oranı (%)**
+ *  **2022 Erkek Ortalama İlk Evlenme Yaşı**
+ *  **2022 Kadın Ortalama İlk Evlenme Yaşı**
+ *  **2022 Kaba Evlenme Hızı:**  *Bin nüfus başına düşen evlenme sayısını ifade eder.*
+ *  **2022 Boşanma Sayısı**
+ *  **2022 Kaba Boşanma Hızı:** *Bin nüfus başına düşen boşanma sayısını ifade eder.*
+ *  **2022 İllere Göre Toplam Evli Nüfus**
+ 
+
+## Çalışmanın Amacı
+ Geçmişte, şuanda ve gelecekte aile daima bir kurumdur. Aileyi oluşturan evlenme terimi ve sonlandıran boşanma terimleri tarih boyunca önemli olacaklardır. Aileyi sonlandıran etmenlerin veya dolaylı yoldan neden olan etmenlerin araştırılması ve önlemler alınarak önüne geçilmesi önem arz etmektedir. Etmenlerden faydalanarak çıkarımsal analiz ile tespit ve yöntem bulabiliriz.
+
+## Literatür 
+Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az altı** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
